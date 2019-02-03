@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"precommit": "lint-staged",
-		"prepush": "npm test",
+		"pre-push": "npm test",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"lint-staged": {
@@ -16,7 +16,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "convention-automation"
+		"url": "git+https://github.com/radlohead/convention-automation"
 	},
 	"keywords": [],
 	"author": "",
